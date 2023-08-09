@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    border:1px solid red;
+}
+
+
+h1{
+    background-color: chocolate;
+    /* margin-top:20px;
+    margin-bottom:10px; */
+
+    margin:20px 0 5px 3px; 
+}
+.par1{
+    background-color: cornflowerblue;
+    margin:10px 20px;
+    
+}
+
+.par2{
+    background-color: crimson;
+    /* margin-top:-50px; */
+    /* border:2px solid red; */
+    /*! Margin auto ile ortalama yapılabilmesi için block element olmalı, width değeri olmalı */
+    width: 40%;
+    margin:auto;
+    margin-top:10px;
+
+}
+.par3{
+    background-color: rgb(48, 199, 48,0.4);
+    margin-top:-10px;
+}
+
+
+.imgContainer{
+     width:200px;
+     height: 200px;
+    margin:auto;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{ 
+    width:100px;
+    height: 100px;
+}
