@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP</title>
+</head>
+<body>
+    <h1>MAP</h1>
+        <!-- ilk resim ekliyoruz ve resme usemap özelliğini # işareti ile ekliyoruz-->
+
+    <img src="./assets/planet.png" alt="" usemap="#gunesSistemi">
+
+    <!-- Map etiketini kullanıyoruz ve name özelliğine usemap de verilen aynı ismi veriyoruz 
+    rect: dikdörtgen bir alan oluşturmak için-->
+    
+    <map name="gunesSistemi">
+        <area  shape="rect" coords="133,251,187,327" href="https://solarsystem.nasa.gov/planets/mercury/overview/" alt="mercury" target="_blank" >
+    </map>
+
+
+</body>
+</html>

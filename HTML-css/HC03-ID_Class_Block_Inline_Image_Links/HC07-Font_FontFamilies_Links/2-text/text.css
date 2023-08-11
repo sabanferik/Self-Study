@@ -1,0 +1,55 @@
+.tcolor {
+  color: rgb(234, 78, 56);
+  background-color: rgb(234, 225, 225);
+}
+
+.align {
+  width: 300px;
+  background-color: burlywood;
+}
+
+.alignment {
+  text-align: justify;
+}
+.decoration {
+  text-decoration: underline overline wavy 3px rgb(60, 225, 214);
+  line-height: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.trans{
+    text-transform:capitalize;
+}
+.indent{
+    text-indent: 20px;
+}
+
+.letter{
+letter-spacing: -1px;
+letter-spacing: 2px;
+}
+.word{
+    word-spacing: 5px;
+}
+.direct{
+    direction: rtl;
+    /* unicode-bidi: bidi-override; */
+}
+
+.line{
+    line-height: 1.5;
+}
+.shadow{
+    line-height: 2rem;
+    text-shadow: 5px -5px  5px rgb(12, 170, 188);
+    
+
+
+} 
+
+.box{
+    box-shadow:-5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
