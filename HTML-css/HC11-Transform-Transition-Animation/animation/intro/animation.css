@@ -1,0 +1,38 @@
+.outher{
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+}
+
+.inner{
+    background-color: darkorange;
+    width: 50%;
+    height: 50%;
+    /* transform: translateY(100%); */
+    /* transform: translate(100%, 100%); */
+    /* transform: translateX(100%); */
+    /* animation-duration: ; */
+    /* animasyon tekrar adedi  sayı yada infinite(sonsuz)*/
+    /* alternate biter bittiği noktadan geri başlar */
+    /* son kareden başlar ilk gelince geridöner */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: travel 2s ease infinite alternate;
+}
+
+@keyframes travel {
+    0%{
+       transform: translate(0); 
+    }
+    25%{
+        transform: translateY(100%); 
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    50%{
+        transform: translate(100%, 100%);
+        background-color: magenta; 
+    }
+    100%{
+        transform: translateX(100%); 
+    }
+}
