@@ -5,8 +5,8 @@
 }
 
 body {
-  /* background-image:url(./img/background_image.jpg); */
-  height: 100vh;
+  background-image: url(./img/background_image.jpg);
+  height: 130vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,6 @@ body {
   padding: 1rem;
 }
 .title {
-
   font-family: "Bowlby One SC", cursive;
 
   text-align: center;
@@ -39,4 +38,48 @@ span {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 400;
+}
+.survey-form {
+    font-family: 'Roboto', sans-serif;
+  width: 500px;
+  /* height: 897px; */
+  background-color: rgba(0, 0, 0, 0.8);
+  margin:auto;
+  padding: 30px 40px;
+}
+#name,
+#age,
+#email,
+#content,
+#comment {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.input-box {
+  margin-top: 1.25rem;
+}
+
+.checkbox,
+.radio {
+  margin-top: 40px;
+}
+textarea {
+  resize: none;
+  height: 91.5px;
+}
+
+.form-submit {
+  
+    width: 160px;
+    margin: auto;
+    margin-top:15.35px;
+}
+#form-button {
+  width: 160px;
+  height: 45px;
+  border-radius: 50px;
+  background: #f00;
+  color:#fff;
+  border:none;
 }

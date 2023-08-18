@@ -6,8 +6,8 @@
     <title>NETFLIX</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4 -->
@@ -55,29 +55,32 @@
               <option value="tvShows">TV shows</option>
             </select>
           </div>
-          <div class="input-box">
+
+          <!-- ------------------------------------------------- -->
+          <div class="input-box checkbox">
             <label for="">Movie Type</label>
             <br />
 
-            <input type="checkbox" checked name="MovieType" id="comedy" value="action"/>
+            <input type="checkbox" checked name="MovieType" id="comedy" value="comedy" />
             <label for="comedy">Comedy</label>
             <br />
-            <input type="checkbox" name="MovieType" id="action" />
+            <input type="checkbox" name="MovieType" id="action" value="Action"/>
             <label for="action">Action</label>
             <br />
-            <input type="checkbox" checked name="MovieType" id="romance" />
+            <input type="checkbox" checked name="MovieType"  value="romance" id="romance" />
             <label for="romance">Romance</label>
           </div>
-          <div class="input-box">
+          <!-- ------------------------------------------- -->
+          <div class="input-box radio" >
             <label for="">Gender</label>
             <br />
-            <input type="radio" name="Gender" id="male" />
+            <input type="radio" name="Gender" value="male"  id="male" />
             <label for="male">Male</label>
             <br />
-            <input type="radio" checked name="Gender" id="female" />
+            <input type="radio" name="Gender" value="female" id="female" />
             <label for="female">Female</label>
             <br />
-            <input type="radio" name="Gender" id="other" />
+            <input type="radio" name="Gender" value="other" id="other" />
             <label for="other">Other</label>
           </div>
 
